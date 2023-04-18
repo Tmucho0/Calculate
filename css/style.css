@@ -1,25 +1,28 @@
-.container {
+.container {	
 	display: grid;
-	grid-template: 33% 33% 33%;
-	background-color: red;
-	border-radius: 10px;
+	background-color: red;	
+	border-radius: 30px;
 	border-color: black, style solid;
 	justify-items: center;
-	margin-top: 150px;
+	margin-top: 160px;
     margin-bottom: 10px;
-	gap: 10px;
-	column-gap: normal;
+	gap: 10px;	
 	background: linear-gradient(150deg, #eba102, #f10271, #00c298, #1a08b9);
-	background-size: 400% 300%;
+	background-size: 300% 150%;
 	animation: movimientoDavo 5s ease infinite;
     padding-bottom: 20px;
-}
-
-
+}	
 
 .miniContenedores * {
-	font-size: 50px;    
+	font-size: 60px;
+
 }
+.granConainer{
+	margin-left: 755px;
+}
+body{
+	width:  1055px;
+	}
 
 @keyframes movimientoDavo {	
 	0% {background-position: 0% 50%;}
