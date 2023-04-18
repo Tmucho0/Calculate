@@ -1,0 +1,32 @@
+.container {
+	display: grid;
+	grid-template: 33% 33% 33%;
+	background-color: red;
+	border-radius: 10px;
+	border-color: black, style solid;
+	justify-items: center;
+	margin-top: 150px;
+    margin-bottom: 10px;
+	gap: 10px;
+	column-gap: normal;
+	background: linear-gradient(150deg, #eba102, #f10271, #00c298, #1a08b9);
+	background-size: 400% 300%;
+	animation: movimientoDavo 5s ease infinite;
+    padding-bottom: 20px;
+}
+
+
+
+.miniContenedores * {
+	font-size: 50px;    
+}
+
+@keyframes movimientoDavo {	
+	0% {background-position: 0% 50%;}
+	50% {background-position: 100% 50%;}
+	100% {background-position: 0% 50%;}
+}
+
+.barra {
+	margin-top: 20px;
+}
